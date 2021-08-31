@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right, #5333ed, #6bb9f0);
+    font-family: sans-serif;
+}
+
+.box{
+    width: 450px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0,0.6);
+    color: #fff;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+}
+
+fieldset{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    display: block;
+    padding: 0.3em;
+    width: 100%;
+}
+
+#check{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 60%;
+    padding: 0.8em;
+    border: 0;
+    border-radius: 5px;
+    background-color: #5333ed;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #a29bfe;
+    cursor: pointer;
+    color: #000;
+}
